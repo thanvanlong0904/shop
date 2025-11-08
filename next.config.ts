@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ["pos.nvncdn.com"], // 👈 thêm domain ở đây
+  },
 };
 
 export default nextConfig;
